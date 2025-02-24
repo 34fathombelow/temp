@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: prom-stack
+spec:
+  destination:
+    name: test
+    namespace: monitoring
+  source:
+    path: .
+    repoURL: https://github.com/34fathombelow/kargo-helm-prom-stack.git
+    targetRevision: env/test
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
