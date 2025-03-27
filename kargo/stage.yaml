@@ -1,0 +1,55 @@
+apiVersion: kargo.akuity.io/v1alpha1
+kind: Stage
+metadata:
+  annotations:
+    kargo.akuity.io/color: avocado
+  labels:
+    kargo.akuity.io/shard: prod
+  name: prod
+  namespace: kargo-guestbook
+spec:
+  promotionTemplate:
+    spec:
+      steps:
+      - config:
+          checkout:
+          - commit: ${{ commitFrom(vars.gitRepo).ID }}
+            path: ./src
+          - branch: env/prod
+            create: true
+            path: ./out
+          repoURL: ${{ vars.gitRepo }}
+        uses: git-clone
+      - config:
+          checkout:
+          - branch: master
+            path: ./overlay
+          repoURL: ${{ vars.overlayRepo }}
+        uses: git-clone
+      - config:
+          outPath: ./out
+          path: ./src/kustomize-guestbook
+        uses: kustomize-build
+      - config:
+          message: merged
+          path: ./out
+        uses: git-commit
+      - config:
+          path: ./out
+        uses: git-push
+      - config:
+          apps:
+          - name: kargo-guestbook
+        uses: argocd-update
+      vars:
+      - name: gitRepo
+        value: https://github.com/34fathombelow/temp.git
+      - name: overlayRepo
+        value: https://github.com/34fathombelow/argocd-example-apps.git
+  requestedFreight:
+  - origin:
+      kind: Warehouse
+      name: kargo-guestbook
+    sources:
+      direct: true
+  shard: prod
