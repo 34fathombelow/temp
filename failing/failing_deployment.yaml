@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-failing
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-failing
+  template:
+    metadata:
+      labels:
+        app: nginx-failing
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:doesnotexist
+          imagePullPolicy: IfNotPresent
