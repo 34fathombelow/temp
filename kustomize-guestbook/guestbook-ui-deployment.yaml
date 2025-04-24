@@ -13,14 +13,14 @@ spec:
       labels:
         app: guestbook-ui
     spec:
-      affinity:
-        podAntiAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            - labelSelector:
-                matchLabels:
-                  app.kubernetes.io/component: replace_me
-                  app.kubernetes.io/name: replace_me
-              topologyKey: kubernetes.io/hostname    
+    #  affinity:
+    #    podAntiAffinity:
+    #      requiredDuringSchedulingIgnoredDuringExecution:
+    #        - labelSelector:
+    #            matchLabels:
+    #              app.kubernetes.io/component: replace_me
+    #              app.kubernetes.io/name: replace_me
+    #          topologyKey: kubernetes.io/hostname
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: guestbook-ui
