@@ -4,8 +4,8 @@ metadata:
   name: temp-guestbook
 spec:
   destination:
-    name: in-cluster
-    namespace: argocd
+    name: test
+    namespace: temp-guestbook
   source:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
