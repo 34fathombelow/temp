@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-test
+  namespace: argocd
+spec:
+  destination:
+    name: test
+    namespace: temp-guestbook-test
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+  project: default
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
