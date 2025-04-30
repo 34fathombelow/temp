@@ -19,7 +19,6 @@ spec:
       - ServerSideApply=true
       - ApplyOutOfSyncOnly=true
       - PruneLast=true
-
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -42,7 +41,6 @@ spec:
       - ServerSideApply=true
       - ApplyOutOfSyncOnly=true
       - PruneLast=true
-
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
