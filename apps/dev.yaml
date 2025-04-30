@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-1
   ignoreDifferences: []
   source:
@@ -27,7 +27,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-2
   ignoreDifferences: []
   source:
@@ -49,7 +49,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-3
   ignoreDifferences: []
   source:
@@ -71,7 +71,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-4
   ignoreDifferences: []
   source:
@@ -93,7 +93,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-5
   ignoreDifferences: []
   source:
@@ -115,7 +115,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-6
   ignoreDifferences: []
   source:
@@ -137,7 +137,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-7
   ignoreDifferences: []
   source:
@@ -159,7 +159,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-8
   ignoreDifferences: []
   source:
@@ -181,7 +181,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-9
   ignoreDifferences: []
   source:
@@ -203,7 +203,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-10
   ignoreDifferences: []
   source:
@@ -225,7 +225,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-11
   ignoreDifferences: []
   source:
@@ -247,7 +247,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-12
   ignoreDifferences: []
   source:
@@ -269,7 +269,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-13
   ignoreDifferences: []
   source:
@@ -291,7 +291,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-14
   ignoreDifferences: []
   source:
@@ -313,7 +313,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-15
   ignoreDifferences: []
   source:
@@ -335,7 +335,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-16
   ignoreDifferences: []
   source:
@@ -357,7 +357,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-17
   ignoreDifferences: []
   source:
@@ -379,7 +379,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-18
   ignoreDifferences: []
   source:
@@ -401,7 +401,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-19
   ignoreDifferences: []
   source:
@@ -423,7 +423,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-20
   ignoreDifferences: []
   source:
@@ -445,7 +445,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-21
   ignoreDifferences: []
   source:
@@ -467,7 +467,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-22
   ignoreDifferences: []
   source:
@@ -489,7 +489,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-23
   ignoreDifferences: []
   source:
@@ -511,7 +511,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-24
   ignoreDifferences: []
   source:
@@ -533,7 +533,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-25
   ignoreDifferences: []
   source:
@@ -555,7 +555,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-26
   ignoreDifferences: []
   source:
@@ -577,7 +577,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-27
   ignoreDifferences: []
   source:
@@ -599,7 +599,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-28
   ignoreDifferences: []
   source:
@@ -621,7 +621,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-29
   ignoreDifferences: []
   source:
@@ -643,7 +643,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-30
   ignoreDifferences: []
   source:
@@ -665,7 +665,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-31
   ignoreDifferences: []
   source:
@@ -687,7 +687,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-32
   ignoreDifferences: []
   source:
@@ -709,7 +709,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-33
   ignoreDifferences: []
   source:
@@ -731,7 +731,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-34
   ignoreDifferences: []
   source:
@@ -753,7 +753,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-35
   ignoreDifferences: []
   source:
@@ -775,7 +775,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-36
   ignoreDifferences: []
   source:
@@ -797,7 +797,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-37
   ignoreDifferences: []
   source:
@@ -819,7 +819,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-38
   ignoreDifferences: []
   source:
@@ -841,7 +841,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-39
   ignoreDifferences: []
   source:
@@ -863,7 +863,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-40
   ignoreDifferences: []
   source:
@@ -885,7 +885,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-41
   ignoreDifferences: []
   source:
@@ -907,7 +907,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-42
   ignoreDifferences: []
   source:
@@ -929,7 +929,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-43
   ignoreDifferences: []
   source:
@@ -951,7 +951,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-44
   ignoreDifferences: []
   source:
@@ -973,7 +973,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-45
   ignoreDifferences: []
   source:
@@ -995,7 +995,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-46
   ignoreDifferences: []
   source:
@@ -1017,7 +1017,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-47
   ignoreDifferences: []
   source:
@@ -1039,7 +1039,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-48
   ignoreDifferences: []
   source:
@@ -1061,7 +1061,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-49
   ignoreDifferences: []
   source:
@@ -1083,7 +1083,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    name: prod
+    name: dev
     namespace: temp-guestbook-50
   ignoreDifferences: []
   source:
