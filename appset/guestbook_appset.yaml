@@ -32,3 +32,4 @@ spec:
         - PruneLast=true
         - ServerSideApply=true
         - FailOnSharedResource=true
+
