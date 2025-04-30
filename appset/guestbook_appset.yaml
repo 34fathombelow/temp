@@ -19,7 +19,7 @@ spec:
         server: https://kubernetes.default.svc
       project: default
       source:
-        path: app-of-apps
+        path: apps
         repoURL: https://github.com/34fathombelow/temp.git
         targetRevision: main
       syncPolicy:
