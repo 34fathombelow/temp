@@ -7,7 +7,7 @@ spec:
   generators:
   - list:
       elements:
-      - name: temp-guestbook-app
+      - name: temp-guestbook-app-of-apps
   template:
     metadata:
       finalizers:
