@@ -4,6 +4,7 @@ metadata:
   name: temp-guestbook-appset
   namespace: argocd
 spec:
+  ignoreDifferences: []
   generators:
   - list:
       elements:
