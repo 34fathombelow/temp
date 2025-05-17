@@ -12,6 +12,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -37,6 +39,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -62,6 +66,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -87,6 +93,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -112,6 +120,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -137,6 +147,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -162,6 +174,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -187,6 +201,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -212,6 +228,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -237,6 +255,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -262,6 +282,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -287,6 +309,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -312,6 +336,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -337,6 +363,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -362,6 +390,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -387,6 +417,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -412,6 +444,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -437,6 +471,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -462,6 +498,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -487,6 +525,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -512,6 +552,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -537,6 +579,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -562,6 +606,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -587,6 +633,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -612,6 +660,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -637,6 +687,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -662,6 +714,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -687,6 +741,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -712,6 +768,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -737,6 +795,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -762,6 +822,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -787,6 +849,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -812,6 +876,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -837,6 +903,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -862,6 +930,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -887,6 +957,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -912,6 +984,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -937,6 +1011,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -962,6 +1038,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -987,6 +1065,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1012,6 +1092,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1037,6 +1119,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1062,6 +1146,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1087,6 +1173,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1112,6 +1200,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1137,6 +1227,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1162,6 +1254,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1187,6 +1281,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1212,6 +1308,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
@@ -1237,6 +1335,8 @@ spec:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
     targetRevision: main
+    helm:
+      parameters: []
   project: default
   syncPolicy:
     automated:
