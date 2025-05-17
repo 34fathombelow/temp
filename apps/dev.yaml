@@ -1348,3 +1348,1353 @@ spec:
       - ApplyOutOfSyncOnly=true
       - PruneLast=true
 ---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-51
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-51
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-52
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-52
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-53
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-53
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-54
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-54
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-55
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-55
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-56
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-56
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-57
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-57
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-58
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-58
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-59
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-59
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-60
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-60
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-61
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-61
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-62
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-62
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-63
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-63
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-64
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-64
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-65
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-65
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-66
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-66
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-67
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-67
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-68
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-68
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-69
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-69
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-70
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-70
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-71
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-71
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-72
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-72
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-73
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-73
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-74
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-74
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-75
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-75
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-76
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-76
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-77
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-77
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-78
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-78
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-79
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-79
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-80
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-80
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-81
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-81
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-82
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-82
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-83
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-83
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-84
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-84
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-85
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-85
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-86
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-86
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-87
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-87
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-88
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-88
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-89
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-89
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-90
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-90
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-91
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-91
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-92
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-92
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-93
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-93
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-94
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-94
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-95
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-95
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-96
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-96
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-97
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-97
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-98
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-98
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-99
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-99
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: temp-guestbook-100
+  namespace: argocd
+spec:
+  destination:
+    name: dev
+    namespace: temp-guestbook-100
+  ignoreDifferences: []
+  source:
+    path: kustomize-guestbook
+    repoURL: https://github.com/34fathombelow/temp.git
+    targetRevision: main
+    helm:
+      parameters: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
+      - ApplyOutOfSyncOnly=true
+      - PruneLast=true
+---
