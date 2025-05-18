@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: temp-guestbook-1
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -30,6 +32,8 @@ kind: Application
 metadata:
   name: temp-guestbook-2
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -57,6 +61,8 @@ kind: Application
 metadata:
   name: temp-guestbook-3
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -84,6 +90,8 @@ kind: Application
 metadata:
   name: temp-guestbook-4
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -111,6 +119,8 @@ kind: Application
 metadata:
   name: temp-guestbook-5
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -138,6 +148,8 @@ kind: Application
 metadata:
   name: temp-guestbook-6
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -165,6 +177,8 @@ kind: Application
 metadata:
   name: temp-guestbook-7
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -192,6 +206,8 @@ kind: Application
 metadata:
   name: temp-guestbook-8
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -219,6 +235,8 @@ kind: Application
 metadata:
   name: temp-guestbook-9
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -246,6 +264,8 @@ kind: Application
 metadata:
   name: temp-guestbook-10
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -273,6 +293,8 @@ kind: Application
 metadata:
   name: temp-guestbook-11
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -300,6 +322,8 @@ kind: Application
 metadata:
   name: temp-guestbook-12
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -327,6 +351,8 @@ kind: Application
 metadata:
   name: temp-guestbook-13
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -354,6 +380,8 @@ kind: Application
 metadata:
   name: temp-guestbook-14
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -381,6 +409,8 @@ kind: Application
 metadata:
   name: temp-guestbook-15
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -408,6 +438,8 @@ kind: Application
 metadata:
   name: temp-guestbook-16
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -435,6 +467,8 @@ kind: Application
 metadata:
   name: temp-guestbook-17
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -462,6 +496,8 @@ kind: Application
 metadata:
   name: temp-guestbook-18
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -489,6 +525,8 @@ kind: Application
 metadata:
   name: temp-guestbook-19
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -516,6 +554,8 @@ kind: Application
 metadata:
   name: temp-guestbook-20
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -543,6 +583,8 @@ kind: Application
 metadata:
   name: temp-guestbook-21
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -570,6 +612,8 @@ kind: Application
 metadata:
   name: temp-guestbook-22
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -597,6 +641,8 @@ kind: Application
 metadata:
   name: temp-guestbook-23
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -624,6 +670,8 @@ kind: Application
 metadata:
   name: temp-guestbook-24
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -651,6 +699,8 @@ kind: Application
 metadata:
   name: temp-guestbook-25
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -678,6 +728,8 @@ kind: Application
 metadata:
   name: temp-guestbook-26
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -705,6 +757,8 @@ kind: Application
 metadata:
   name: temp-guestbook-27
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -732,6 +786,8 @@ kind: Application
 metadata:
   name: temp-guestbook-28
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -759,6 +815,8 @@ kind: Application
 metadata:
   name: temp-guestbook-29
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -786,6 +844,8 @@ kind: Application
 metadata:
   name: temp-guestbook-30
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -813,6 +873,8 @@ kind: Application
 metadata:
   name: temp-guestbook-31
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -840,6 +902,8 @@ kind: Application
 metadata:
   name: temp-guestbook-32
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -867,6 +931,8 @@ kind: Application
 metadata:
   name: temp-guestbook-33
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -894,6 +960,8 @@ kind: Application
 metadata:
   name: temp-guestbook-34
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -921,6 +989,8 @@ kind: Application
 metadata:
   name: temp-guestbook-35
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -948,6 +1018,8 @@ kind: Application
 metadata:
   name: temp-guestbook-36
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -975,6 +1047,8 @@ kind: Application
 metadata:
   name: temp-guestbook-37
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1002,6 +1076,8 @@ kind: Application
 metadata:
   name: temp-guestbook-38
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1029,6 +1105,8 @@ kind: Application
 metadata:
   name: temp-guestbook-39
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1056,6 +1134,8 @@ kind: Application
 metadata:
   name: temp-guestbook-40
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1083,6 +1163,8 @@ kind: Application
 metadata:
   name: temp-guestbook-41
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1110,6 +1192,8 @@ kind: Application
 metadata:
   name: temp-guestbook-42
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1137,6 +1221,8 @@ kind: Application
 metadata:
   name: temp-guestbook-43
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1164,6 +1250,8 @@ kind: Application
 metadata:
   name: temp-guestbook-44
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1191,6 +1279,8 @@ kind: Application
 metadata:
   name: temp-guestbook-45
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1218,6 +1308,8 @@ kind: Application
 metadata:
   name: temp-guestbook-46
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1245,6 +1337,8 @@ kind: Application
 metadata:
   name: temp-guestbook-47
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1272,6 +1366,8 @@ kind: Application
 metadata:
   name: temp-guestbook-48
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1299,6 +1395,8 @@ kind: Application
 metadata:
   name: temp-guestbook-49
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1326,6 +1424,8 @@ kind: Application
 metadata:
   name: temp-guestbook-50
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1353,6 +1453,8 @@ kind: Application
 metadata:
   name: temp-guestbook-51
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1380,6 +1482,8 @@ kind: Application
 metadata:
   name: temp-guestbook-52
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1407,6 +1511,8 @@ kind: Application
 metadata:
   name: temp-guestbook-53
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1434,6 +1540,8 @@ kind: Application
 metadata:
   name: temp-guestbook-54
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1461,6 +1569,8 @@ kind: Application
 metadata:
   name: temp-guestbook-55
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1488,6 +1598,8 @@ kind: Application
 metadata:
   name: temp-guestbook-56
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1515,6 +1627,8 @@ kind: Application
 metadata:
   name: temp-guestbook-57
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1542,6 +1656,8 @@ kind: Application
 metadata:
   name: temp-guestbook-58
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1569,6 +1685,8 @@ kind: Application
 metadata:
   name: temp-guestbook-59
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1596,6 +1714,8 @@ kind: Application
 metadata:
   name: temp-guestbook-60
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1623,6 +1743,8 @@ kind: Application
 metadata:
   name: temp-guestbook-61
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1650,6 +1772,8 @@ kind: Application
 metadata:
   name: temp-guestbook-62
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1677,6 +1801,8 @@ kind: Application
 metadata:
   name: temp-guestbook-63
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1704,6 +1830,8 @@ kind: Application
 metadata:
   name: temp-guestbook-64
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1731,6 +1859,8 @@ kind: Application
 metadata:
   name: temp-guestbook-65
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1758,6 +1888,8 @@ kind: Application
 metadata:
   name: temp-guestbook-66
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1785,6 +1917,8 @@ kind: Application
 metadata:
   name: temp-guestbook-67
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1812,6 +1946,8 @@ kind: Application
 metadata:
   name: temp-guestbook-68
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1839,6 +1975,8 @@ kind: Application
 metadata:
   name: temp-guestbook-69
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1866,6 +2004,8 @@ kind: Application
 metadata:
   name: temp-guestbook-70
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1893,6 +2033,8 @@ kind: Application
 metadata:
   name: temp-guestbook-71
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1920,6 +2062,8 @@ kind: Application
 metadata:
   name: temp-guestbook-72
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1947,6 +2091,8 @@ kind: Application
 metadata:
   name: temp-guestbook-73
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -1974,6 +2120,8 @@ kind: Application
 metadata:
   name: temp-guestbook-74
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2001,6 +2149,8 @@ kind: Application
 metadata:
   name: temp-guestbook-75
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2028,6 +2178,8 @@ kind: Application
 metadata:
   name: temp-guestbook-76
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2055,6 +2207,8 @@ kind: Application
 metadata:
   name: temp-guestbook-77
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2082,6 +2236,8 @@ kind: Application
 metadata:
   name: temp-guestbook-78
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2109,6 +2265,8 @@ kind: Application
 metadata:
   name: temp-guestbook-79
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2136,6 +2294,8 @@ kind: Application
 metadata:
   name: temp-guestbook-80
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2163,6 +2323,8 @@ kind: Application
 metadata:
   name: temp-guestbook-81
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2190,6 +2352,8 @@ kind: Application
 metadata:
   name: temp-guestbook-82
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2217,6 +2381,8 @@ kind: Application
 metadata:
   name: temp-guestbook-83
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2244,6 +2410,8 @@ kind: Application
 metadata:
   name: temp-guestbook-84
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2271,6 +2439,8 @@ kind: Application
 metadata:
   name: temp-guestbook-85
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2298,6 +2468,8 @@ kind: Application
 metadata:
   name: temp-guestbook-86
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2325,6 +2497,8 @@ kind: Application
 metadata:
   name: temp-guestbook-87
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2352,6 +2526,8 @@ kind: Application
 metadata:
   name: temp-guestbook-88
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2379,6 +2555,8 @@ kind: Application
 metadata:
   name: temp-guestbook-89
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2406,6 +2584,8 @@ kind: Application
 metadata:
   name: temp-guestbook-90
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2433,6 +2613,8 @@ kind: Application
 metadata:
   name: temp-guestbook-91
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2460,6 +2642,8 @@ kind: Application
 metadata:
   name: temp-guestbook-92
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2487,6 +2671,8 @@ kind: Application
 metadata:
   name: temp-guestbook-93
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2514,6 +2700,8 @@ kind: Application
 metadata:
   name: temp-guestbook-94
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2541,6 +2729,8 @@ kind: Application
 metadata:
   name: temp-guestbook-95
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2568,6 +2758,8 @@ kind: Application
 metadata:
   name: temp-guestbook-96
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2595,6 +2787,8 @@ kind: Application
 metadata:
   name: temp-guestbook-97
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2622,6 +2816,8 @@ kind: Application
 metadata:
   name: temp-guestbook-98
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2649,6 +2845,8 @@ kind: Application
 metadata:
   name: temp-guestbook-99
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
@@ -2676,6 +2874,8 @@ kind: Application
 metadata:
   name: temp-guestbook-100
   namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
     name: dev
