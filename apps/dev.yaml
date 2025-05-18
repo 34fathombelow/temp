@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-1
+  name: temp-guestbook-dev-1
   namespace: argocd
 spec:
   destination:
@@ -28,7 +28,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-2
+  name: temp-guestbook-dev-2
   namespace: argocd
 spec:
   destination:
@@ -55,7 +55,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-3
+  name: temp-guestbook-dev-3
   namespace: argocd
 spec:
   destination:
@@ -82,7 +82,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-4
+  name: temp-guestbook-dev-4
   namespace: argocd
 spec:
   destination:
@@ -109,7 +109,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-5
+  name: temp-guestbook-dev-5
   namespace: argocd
 spec:
   destination:
@@ -136,7 +136,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-6
+  name: temp-guestbook-dev-6
   namespace: argocd
 spec:
   destination:
@@ -163,7 +163,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-7
+  name: temp-guestbook-dev-7
   namespace: argocd
 spec:
   destination:
@@ -190,7 +190,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-8
+  name: temp-guestbook-dev-8
   namespace: argocd
 spec:
   destination:
@@ -217,7 +217,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-9
+  name: temp-guestbook-dev-9
   namespace: argocd
 spec:
   destination:
@@ -244,7 +244,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-10
+  name: temp-guestbook-dev-10
   namespace: argocd
 spec:
   destination:
@@ -271,7 +271,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-11
+  name: temp-guestbook-dev-11
   namespace: argocd
 spec:
   destination:
@@ -298,7 +298,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-12
+  name: temp-guestbook-dev-12
   namespace: argocd
 spec:
   destination:
@@ -325,7 +325,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-13
+  name: temp-guestbook-dev-13
   namespace: argocd
 spec:
   destination:
@@ -352,7 +352,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-14
+  name: temp-guestbook-dev-14
   namespace: argocd
 spec:
   destination:
@@ -379,7 +379,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-15
+  name: temp-guestbook-dev-15
   namespace: argocd
 spec:
   destination:
@@ -406,7 +406,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-16
+  name: temp-guestbook-dev-16
   namespace: argocd
 spec:
   destination:
@@ -433,7 +433,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-17
+  name: temp-guestbook-dev-17
   namespace: argocd
 spec:
   destination:
@@ -460,7 +460,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-18
+  name: temp-guestbook-dev-18
   namespace: argocd
 spec:
   destination:
@@ -487,7 +487,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-19
+  name: temp-guestbook-dev-19
   namespace: argocd
 spec:
   destination:
@@ -514,7 +514,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-20
+  name: temp-guestbook-dev-20
   namespace: argocd
 spec:
   destination:
@@ -541,7 +541,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-21
+  name: temp-guestbook-dev-21
   namespace: argocd
 spec:
   destination:
@@ -568,7 +568,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-22
+  name: temp-guestbook-dev-22
   namespace: argocd
 spec:
   destination:
@@ -595,7 +595,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-23
+  name: temp-guestbook-dev-23
   namespace: argocd
 spec:
   destination:
@@ -622,7 +622,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-24
+  name: temp-guestbook-dev-24
   namespace: argocd
 spec:
   destination:
@@ -649,7 +649,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-25
+  name: temp-guestbook-dev-25
   namespace: argocd
 spec:
   destination:
@@ -676,7 +676,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-26
+  name: temp-guestbook-dev-26
   namespace: argocd
 spec:
   destination:
@@ -703,7 +703,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-27
+  name: temp-guestbook-dev-27
   namespace: argocd
 spec:
   destination:
@@ -730,7 +730,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-28
+  name: temp-guestbook-dev-28
   namespace: argocd
 spec:
   destination:
@@ -757,7 +757,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-29
+  name: temp-guestbook-dev-29
   namespace: argocd
 spec:
   destination:
@@ -784,7 +784,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-30
+  name: temp-guestbook-dev-30
   namespace: argocd
 spec:
   destination:
@@ -811,7 +811,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-31
+  name: temp-guestbook-dev-31
   namespace: argocd
 spec:
   destination:
@@ -838,7 +838,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-32
+  name: temp-guestbook-dev-32
   namespace: argocd
 spec:
   destination:
@@ -865,7 +865,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-33
+  name: temp-guestbook-dev-33
   namespace: argocd
 spec:
   destination:
@@ -892,7 +892,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-34
+  name: temp-guestbook-dev-34
   namespace: argocd
 spec:
   destination:
@@ -919,7 +919,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-35
+  name: temp-guestbook-dev-35
   namespace: argocd
 spec:
   destination:
@@ -946,7 +946,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-36
+  name: temp-guestbook-dev-36
   namespace: argocd
 spec:
   destination:
@@ -973,7 +973,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-37
+  name: temp-guestbook-dev-37
   namespace: argocd
 spec:
   destination:
@@ -1000,7 +1000,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-38
+  name: temp-guestbook-dev-38
   namespace: argocd
 spec:
   destination:
@@ -1027,7 +1027,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-39
+  name: temp-guestbook-dev-39
   namespace: argocd
 spec:
   destination:
@@ -1054,7 +1054,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-40
+  name: temp-guestbook-dev-40
   namespace: argocd
 spec:
   destination:
@@ -1081,7 +1081,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-41
+  name: temp-guestbook-dev-41
   namespace: argocd
 spec:
   destination:
@@ -1108,7 +1108,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-42
+  name: temp-guestbook-dev-42
   namespace: argocd
 spec:
   destination:
@@ -1135,7 +1135,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-43
+  name: temp-guestbook-dev-43
   namespace: argocd
 spec:
   destination:
@@ -1162,7 +1162,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-44
+  name: temp-guestbook-dev-44
   namespace: argocd
 spec:
   destination:
@@ -1189,7 +1189,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-45
+  name: temp-guestbook-dev-45
   namespace: argocd
 spec:
   destination:
@@ -1216,7 +1216,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-46
+  name: temp-guestbook-dev-46
   namespace: argocd
 spec:
   destination:
@@ -1243,7 +1243,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-47
+  name: temp-guestbook-dev-47
   namespace: argocd
 spec:
   destination:
@@ -1270,7 +1270,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-48
+  name: temp-guestbook-dev-48
   namespace: argocd
 spec:
   destination:
@@ -1297,7 +1297,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-49
+  name: temp-guestbook-dev-49
   namespace: argocd
 spec:
   destination:
@@ -1324,7 +1324,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-50
+  name: temp-guestbook-dev-50
   namespace: argocd
 spec:
   destination:
@@ -1351,7 +1351,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-51
+  name: temp-guestbook-dev-51
   namespace: argocd
 spec:
   destination:
@@ -1378,7 +1378,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-52
+  name: temp-guestbook-dev-52
   namespace: argocd
 spec:
   destination:
@@ -1405,7 +1405,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-53
+  name: temp-guestbook-dev-53
   namespace: argocd
 spec:
   destination:
@@ -1432,7 +1432,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-54
+  name: temp-guestbook-dev-54
   namespace: argocd
 spec:
   destination:
@@ -1459,7 +1459,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-55
+  name: temp-guestbook-dev-55
   namespace: argocd
 spec:
   destination:
@@ -1486,7 +1486,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-56
+  name: temp-guestbook-dev-56
   namespace: argocd
 spec:
   destination:
@@ -1513,7 +1513,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-57
+  name: temp-guestbook-dev-57
   namespace: argocd
 spec:
   destination:
@@ -1540,7 +1540,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-58
+  name: temp-guestbook-dev-58
   namespace: argocd
 spec:
   destination:
@@ -1567,7 +1567,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-59
+  name: temp-guestbook-dev-59
   namespace: argocd
 spec:
   destination:
@@ -1594,7 +1594,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-60
+  name: temp-guestbook-dev-60
   namespace: argocd
 spec:
   destination:
@@ -1621,7 +1621,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-61
+  name: temp-guestbook-dev-61
   namespace: argocd
 spec:
   destination:
@@ -1648,7 +1648,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-62
+  name: temp-guestbook-dev-62
   namespace: argocd
 spec:
   destination:
@@ -1675,7 +1675,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-63
+  name: temp-guestbook-dev-63
   namespace: argocd
 spec:
   destination:
@@ -1702,7 +1702,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-64
+  name: temp-guestbook-dev-64
   namespace: argocd
 spec:
   destination:
@@ -1729,7 +1729,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-65
+  name: temp-guestbook-dev-65
   namespace: argocd
 spec:
   destination:
@@ -1756,7 +1756,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-66
+  name: temp-guestbook-dev-66
   namespace: argocd
 spec:
   destination:
@@ -1783,7 +1783,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-67
+  name: temp-guestbook-dev-67
   namespace: argocd
 spec:
   destination:
@@ -1810,7 +1810,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-68
+  name: temp-guestbook-dev-68
   namespace: argocd
 spec:
   destination:
@@ -1837,7 +1837,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-69
+  name: temp-guestbook-dev-69
   namespace: argocd
 spec:
   destination:
@@ -1864,7 +1864,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-70
+  name: temp-guestbook-dev-70
   namespace: argocd
 spec:
   destination:
@@ -1891,7 +1891,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-71
+  name: temp-guestbook-dev-71
   namespace: argocd
 spec:
   destination:
@@ -1918,7 +1918,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-72
+  name: temp-guestbook-dev-72
   namespace: argocd
 spec:
   destination:
@@ -1945,7 +1945,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-73
+  name: temp-guestbook-dev-73
   namespace: argocd
 spec:
   destination:
@@ -1972,7 +1972,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-74
+  name: temp-guestbook-dev-74
   namespace: argocd
 spec:
   destination:
@@ -1999,7 +1999,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-75
+  name: temp-guestbook-dev-75
   namespace: argocd
 spec:
   destination:
@@ -2026,7 +2026,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-76
+  name: temp-guestbook-dev-76
   namespace: argocd
 spec:
   destination:
@@ -2053,7 +2053,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-77
+  name: temp-guestbook-dev-77
   namespace: argocd
 spec:
   destination:
@@ -2080,7 +2080,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-78
+  name: temp-guestbook-dev-78
   namespace: argocd
 spec:
   destination:
@@ -2107,7 +2107,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-79
+  name: temp-guestbook-dev-79
   namespace: argocd
 spec:
   destination:
@@ -2134,7 +2134,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-80
+  name: temp-guestbook-dev-80
   namespace: argocd
 spec:
   destination:
@@ -2161,7 +2161,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-81
+  name: temp-guestbook-dev-81
   namespace: argocd
 spec:
   destination:
@@ -2188,7 +2188,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-82
+  name: temp-guestbook-dev-82
   namespace: argocd
 spec:
   destination:
@@ -2215,7 +2215,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-83
+  name: temp-guestbook-dev-83
   namespace: argocd
 spec:
   destination:
@@ -2242,7 +2242,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-84
+  name: temp-guestbook-dev-84
   namespace: argocd
 spec:
   destination:
@@ -2269,7 +2269,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-85
+  name: temp-guestbook-dev-85
   namespace: argocd
 spec:
   destination:
@@ -2296,7 +2296,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-86
+  name: temp-guestbook-dev-86
   namespace: argocd
 spec:
   destination:
@@ -2323,7 +2323,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-87
+  name: temp-guestbook-dev-87
   namespace: argocd
 spec:
   destination:
@@ -2350,7 +2350,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-88
+  name: temp-guestbook-dev-88
   namespace: argocd
 spec:
   destination:
@@ -2377,7 +2377,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-89
+  name: temp-guestbook-dev-89
   namespace: argocd
 spec:
   destination:
@@ -2404,7 +2404,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-90
+  name: temp-guestbook-dev-90
   namespace: argocd
 spec:
   destination:
@@ -2431,7 +2431,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-91
+  name: temp-guestbook-dev-91
   namespace: argocd
 spec:
   destination:
@@ -2458,7 +2458,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-92
+  name: temp-guestbook-dev-92
   namespace: argocd
 spec:
   destination:
@@ -2485,7 +2485,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-93
+  name: temp-guestbook-dev-93
   namespace: argocd
 spec:
   destination:
@@ -2512,7 +2512,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-94
+  name: temp-guestbook-dev-94
   namespace: argocd
 spec:
   destination:
@@ -2539,7 +2539,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-95
+  name: temp-guestbook-dev-95
   namespace: argocd
 spec:
   destination:
@@ -2566,7 +2566,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-96
+  name: temp-guestbook-dev-96
   namespace: argocd
 spec:
   destination:
@@ -2593,7 +2593,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-97
+  name: temp-guestbook-dev-97
   namespace: argocd
 spec:
   destination:
@@ -2620,7 +2620,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-98
+  name: temp-guestbook-dev-98
   namespace: argocd
 spec:
   destination:
@@ -2647,7 +2647,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-99
+  name: temp-guestbook-dev-99
   namespace: argocd
 spec:
   destination:
@@ -2674,7 +2674,7 @@ spec:
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: temp-guestbook-100
+  name: temp-guestbook-dev-100
   namespace: argocd
 spec:
   destination:
