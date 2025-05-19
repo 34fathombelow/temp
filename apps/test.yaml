@@ -8,6 +8,7 @@ spec:
     name: test
     namespace: temp-guestbook-test-1
   ignoreDifferences: []
+  emptyList: []
   source:
     path: kustomize-guestbook
     repoURL: https://github.com/34fathombelow/temp.git
